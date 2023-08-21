@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--Bootstrap-Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--SCSS-->
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <!--JS-->
+    <script type="module" src="./js/controller.js"></script>
+    <title>Car Filter Project</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row px-4">
+			<div class="px-2 py-3">
+				<h1><i class="bi bi-car-front-fill"></i> Car Filter Project</h1>
+			</div>
+			<nav class="navbar navbar-light bg-light px-2 py-3">
+				<form class="d-flex" role="search">
+					<input class="search form-control me-2" type="search" placeholder="Filter by make..." aria-label="Search">
+				</form>
+				<div class="wrap-btn gap-2">
+					<button id="all" class="btn btn-outline-success" type="button">All cars</button>
+					<button id="used" class="btn btn-outline-success" type="button">Used</button>
+					<button id="zero" class="btn btn-outline-success" type="button">Km 0</button>
+				</div>
+			</nav> 
+		</div>
+		<div class="row px-4">
+			<div class="col-2 py-3">
+					<div class="price row px-4 py-2">
+							<label for="price" class="label">Price</label>
+							<div class="price__range"></div>
+					</div>  
+			</div>
+			<div class="col-10 py-3">
+					<div class="cars-list d-flex flex-wrap py-3 gap-2">     
+					</div>
+			</div>   
+		</div>   
+	</div>
+	<div class="container">
+		<p class="copyright pb-1">
+				&copy; Copyright by
+				<a
+						class="github-link"
+						target="_blank"
+						href="https://github.com/AngyD"
+						>Angy Donapai</a
+				>. Use for learning. Don't attribute as your creation.
+		</p>
+		<p class="credit pb-1">
+				Credit: Car Image by <a target="_blank" href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299198">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299198">Pixabay</a>
+		</p>
+	</div>
+</body>
+</html>

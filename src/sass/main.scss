@@ -1,0 +1,8 @@
+//Bootstrap variables override
+// $clr-range-bg:#198754;
+// $form-range-thumb-bg: $clr-range-bg;
+// $form-range-thumb-active-bg: tint-color($clr-range-bg, 70%);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../sass/base";
+
